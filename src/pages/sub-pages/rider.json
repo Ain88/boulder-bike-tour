@@ -1,0 +1,25 @@
+{
+  "Rider":
+  [
+    { "id": 1, "first_name" : "Dustin", "last_name" : "Green", "city": "Hickory Hills", "state":"IL", "lat_long": [40.00, -105.35], "photo": "./people/1.jpg"},
+    { "id": 2, "first_name" : "Jason", "last_name" : "Finn", "city": "Huntington Beach", "state":"CA", "lat_long": [39.95, -105.24], "photo": "./people/2.jpg"},
+    { "id": 3, "first_name" : "Howard", "last_name" : "Thompson", "city": "Hale", "state":"MO", "lat_long": [40.06, -105.26], "photo": "./people/3.jpg"},
+    { "id": 4, "first_name" : "Maggie", "last_name" : "Lantz", "city": "Dublin", "state":"OH", "lat_long": [40.03, -105.23], "photo": "./people/4.jpg"},
+    { "id": 5, "first_name" : "Lawrence", "last_name" : "Duran", "city": "Fort Myers", "state":"FL", "lat_long": [40.04, -105.23], "photo": "./people/5.jpg" },
+    { "id": 6, "first_name" : "Irene", "last_name" : "Molina", "city": "Tucson", "state":"AZ", "lat_long": [39.96, -105.22], "photo": "./people/6.jpg"},
+    { "id": 7, "first_name" : "Nancy", "last_name" : "Gamer", "city": "Baltimore", "state":"MD", "lat_long": [39.98, -105.21], "photo": "./people/7.jpg"},
+    { "id": 8, "first_name" : "Tara", "last_name" : "Taylor", "city": "Minneapolis", "state":"MN", "lat_long": [40.00, -105.25], "photo": "./people/8.jpg"},
+    { "id": 9, "first_name" : "Alejandro", "last_name" : "Smith", "city": "Scarborough", "state":"ME", "lat_long": [40.02, -105.26], "photo": "./people/9.jpg" },
+    { "id": 10, "first_name" : "Tricia", "last_name" : "Renshaw", "city": "Mystic", "state":"CT", "lat_long": [40.02, -105.30], "photo": "./people/10.jpg"},
+    { "id": 11, "first_name" : "Travis", "last_name" : "Cook", "city": "Twin Lakes", "state":"WI", "lat_long": [40.01, -105.20], "photo": "./people/11.jpg"},
+    { "id": 12, "first_name" : "Joan", "last_name" : "Brooks", "city": "Norfolk", "state":"VA", "lat_long": [39.98, -105.24], "photo": "./people/12.jpg"},
+    { "id": 13, "first_name" : "Joseph", "last_name" : "Rodgers", "city": "Wayne", "state":"NJ", "lat_long": [39.99, -105.25], "photo": "./people/13.jpg" },
+    { "id": 14, "first_name" : "Matthew", "last_name" : "Gregson", "city": "Brashear", "state":"MO", "lat_long": [39.97, -105.29], "photo": "./people/14.jpg"},
+    { "id": 15, "first_name" : "Katie", "last_name" : "Dunlap", "city": "Marion", "state":"VA", "lat_long": [39.97, -105.27], "photo": "./people/15.jpg"},
+    { "id": 16, "first_name" : "Leo", "last_name" : "Howard", "city": "Dallas", "state":"TX", "lat_long": [40.00, -105.33], "photo": "./people/16.jpg"},
+    { "id": 17, "first_name" : "Maria", "last_name" : "Baisden", "city": "Raleigh", "state":"NC", "lat_long": [40.05, -105.29], "photo": "./people/17.jpg" },
+    { "id": 18, "first_name" : "Sandy", "last_name" : "Townsend", "city": "Newport", "state":"PA", "lat_long": [40.05, -105.30], "photo": "./people/18.jpg"},
+    { "id": 19, "first_name" : "Melinda", "last_name" : "Stephenson", "city": "Kahului", "state":"HI", "lat_long": [39.99, -105.31], "photo": "./people/19.jpg"},
+    { "id": 20, "first_name" : "Jason", "last_name" : "Nichols", "city": "Alexandria", "state":"VA", "lat_long": [40.01, -105.32], "photo": "./people/20.jpg"}
+  ]
+}

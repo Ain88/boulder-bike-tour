@@ -13,6 +13,7 @@ class Header extends React.Component {
               <Nav.Link href="about">About</Nav.Link>
               <Nav.Link href="gallery">Gallery</Nav.Link>
               <Nav.Link href="location">Location</Nav.Link>
+              <Nav.Link href="riders">Riders</Nav.Link>
               <Nav.Link href="contest">Contest</Nav.Link>
               <Nav.Link href="askus">Ask Us</Nav.Link>
               </Nav>

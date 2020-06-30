@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
 import Location from './pages/Location';
+import Riders from './pages/Riders';
 import Contest from './pages/Contest';
 import Askus from './pages/Askus';
 
@@ -15,6 +16,7 @@ const Main = () => {
       <Route exact path='/about' component={About}></Route>
       <Route exact path='/gallery' component={Gallery}></Route>
       <Route exact path='/location' component={Location}></Route>
+      <Route exact path='/riders' component={Riders}></Route>
       <Route exact path='/contest' component={Contest}></Route>
       <Route exact path='/askus' component={Askus}></Route>
     </Switch>

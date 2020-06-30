@@ -12,7 +12,7 @@ class Gallery extends Component {
       hasMore: true,
       isLoading: false,
       images: [],
-      index1: 3
+      index1: 10
     };
 
     window.onscroll = debounce(() => {
@@ -33,7 +33,7 @@ class Gallery extends Component {
       ) {
         loadImages();
       }
-    }, 200);
+    }, 300);
   }
 
   componentWillMount() {
@@ -82,28 +82,27 @@ class Gallery extends Component {
     return (
       <div>
         <div className="container content">
-        <h2>Gallery</h2><br />
+        <h2>Gallery</h2>
           <div className= "row image-scroller">
             {images.map((image, index) => (
-              <div key={index} className ="image-gallery col-6 col-md-3">
+              <div key={index} className ="image-gallery col-6 col-md-4">
                 <img src={image} />
               </div>
             ))}
           </div>
-        </div>
 
-        <hr />
         {error &&
           <div style={{ color: '#900' }}>
             {error}
           </div>
         }
         {isLoading &&
-          <div>Loading...</div>
+          <div className= "span-space"><h5><img className="loading-img" src={require('../img/loading.gif')} />   Loading...</h5></div>
         }
         {!hasMore &&
           <div>You reached the end!</div>
         }
+      </div>
       </div>
     );
   }

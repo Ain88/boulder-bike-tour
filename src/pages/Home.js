@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Countdown from "./Countdown";
+import Countdown from "./sub-pages/Countdown";
 import { Button, Row, Col, Card, Carousel } from 'react-bootstrap';
 
 class Home extends React.Component {
