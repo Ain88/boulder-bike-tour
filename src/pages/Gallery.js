@@ -86,7 +86,7 @@ class Gallery extends Component {
           <div className= "row image-scroller">
             {images.map((image, index) => (
               <div key={index} className ="image-gallery col-6 col-md-4">
-                <img src={image} />
+                <img className="img-fit" src={image} />
               </div>
             ))}
           </div>

@@ -149,6 +149,9 @@ form {
   height: 3rem;
 }
 
+.img-fit {
+  object-fit: contain !important;
+}
 
 #id01 {
   display: block;
